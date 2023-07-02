@@ -23,8 +23,8 @@ The APIs can be viewed at http://localhost:3001/documentation, which has a docum
 ## Environment Variables and DB construction
 
 Please refer to `.env.example` and put corresponding variables.
-A database need to be created with postgresql beforehand and a trigger need to implemented in the db for the websocket api to function properly.
-One may refer to the example below:
+A database associated with a trigger need to be created with postgresql beforehand for the websocket api to function properly.
+An example of creating a trigger in psql would be:
 
 ```bash
 # Assuming a database is created..
