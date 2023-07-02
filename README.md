@@ -1,6 +1,6 @@
 # Catcher Game (Backend)
 
-This is the backend repository for the catcher game.
+This is the backend repository for the catcher game. <br/>
 TechStack: NodeJS (Fastify), Typescript, Swagger, PostgreSQL
 
 ## Getting Started
