@@ -74,7 +74,6 @@ declare module "fastify" {
 }
 
 const connectionString = process.env.DATABASE_URL;
-console.log({ connectionString });
 
 async function buildServer(opts = {}) {
   const app = fastify(opts);
